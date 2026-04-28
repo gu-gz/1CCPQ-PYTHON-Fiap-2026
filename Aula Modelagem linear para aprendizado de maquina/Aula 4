@@ -1,0 +1,61 @@
+#exemplo 1
+'''
+idade = 18
+tem_carteira = True
+
+if idade >= 18 and tem_carteira == True:
+    print("Pode dirigir")
+else:
+    print("Não pode dirigir")  
+'''
+#exemplo 2
+'''
+media = 7.5
+frequencia = 50
+if media >= 7 and frequencia >= 75:
+    print("Aprovado")
+elif media >= 5 and frequencia >= 75:
+    print("Recuperação")
+else:
+    print("Reprovado")
+'''
+#exemplo 3
+'''
+tem_cafe = True
+
+if not tem_cafe:
+    print("Precisa fazer mais café")
+else:
+    print("Já tem café suficiente")
+'''
+#exemplo 4 
+'''
+for i in range(5):
+    print('numero : ', i)
+'''
+#exemplo 5
+'''
+n = 0
+
+while n <= 5:
+    print('numero : ', n)
+    n += 1
+'''
+#exemplo 6
+'''
+def area_triangulo(b , h):
+    return (b * h) / 2
+
+print(area_triangulo(2, 14))
+'''
+#exemplo 7
+
+'''
+def area_circunferencia(r):
+    return 3.141593 * r **2
+
+print(area_circunferencia(10))
+'''
+# localizando o workspace do python (diretorio):
+import os
+print(' o caminho é : ', os.getcwd())
