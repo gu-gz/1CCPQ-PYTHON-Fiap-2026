@@ -13,7 +13,7 @@ print("Hexadecimal:", hex(codigo))
 
 # analiser uma palavra
 
-texto = "Miguel é gay"
+texto = "casa"
 
 for letra in texto:
     codigo = ord(letra)
