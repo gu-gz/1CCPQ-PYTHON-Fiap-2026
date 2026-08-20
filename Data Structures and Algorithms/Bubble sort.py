@@ -33,7 +33,10 @@ def insertion_sort(lista):
 
 print("bubble_sort:")
 print(bubble_sort(numeros))
+print("Trocas", trocas)
 print("selection_sort:")
 print(selection_sort(numeros))
+print("Trocas", trocas)
 print("insertion_sort:")
 print(insertion_sort(numeros))
+print("Trocas", trocas)
